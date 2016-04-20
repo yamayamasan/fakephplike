@@ -1,0 +1,19 @@
+{
+  "name": "isset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "find ./tests -name *_test.js | xargs mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "lodash": "^4.11.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp-git": "^1.7.1"
+  }
+}
